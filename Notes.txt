@@ -1,0 +1,11 @@
+Time Taken:
+    ~ 2 hours, fair amount was spent setting up IDE and locally installing packages required.
+Assumptions Made:
+    - That the first element of the API method "/postcodes/{postcode}/nearest" was the postcode given.
+Comments:
+    - How I am pulling out the data for nearest postcode is not ideal as I have hardcoded going down the JSON hierarchy.
+    - Could have had my client, response, jsonObject, jsonParse as class members to remove some more duplicate code.
+    - Pretty up the printer so that the columns line up.
+    - I really should have used Maven or Gradle to help setup the project structure and install packages, would have saved a lot of time.
+    - Converting my response to a string then parsing into a JSONObject seems unnecessary, especially when there is a MediaType for application/JSON.
+    - There must be some better Exception classes to use to specify 404 or 500 etc, rather than using the Exception base class and adding into the message body.

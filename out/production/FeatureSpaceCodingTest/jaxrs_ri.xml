@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jaxrs-ri">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/Jersey/jaxrs-ri-2.28/jaxrs-ri" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/Jersey/jaxrs-ri-2.28/jaxrs-ri" recursive="false" />
+  </library>
+</component>
